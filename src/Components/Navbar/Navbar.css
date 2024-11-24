@@ -1,0 +1,21 @@
+.apiNav{
+    @apply sticky top-0 bg-[#15B392]
+}
+.apiNav_row{
+    @apply pt-[5px] pb-[5px] flex  items-center justify-between
+}
+.apiNav_logo{
+    @apply flex items-center justify-center
+}
+.apiNav_logo img{
+    @apply w-[80px] inline-block
+}
+.apiNav_logo span{
+    @apply font-sans font-medium text-[35px] text-blue-600 gap-2
+}
+.apiNav_seaarch{
+    @apply w-[250px] h-[40px] border-[1px] border-gray-400 rounded-[10px] flex items-center gap-[7px] pl-2
+}
+.apiNav_seaarch input{
+    @apply border-none outline-none bg-transparent w-[200px]
+}

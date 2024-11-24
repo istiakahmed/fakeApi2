@@ -1,0 +1,21 @@
+#apiProducts{
+    @apply pt-[30px] pb-[20px] 
+}
+.product_head h1{
+    @apply text-[35px] font-medium mb-[15px] pl-[85px]
+}
+.apiProducts_row{
+    @apply flex gap-5 flex-wrap justify-center
+}
+.single_card{
+    @apply w-[205px] flex flex-col gap-5 max-w-xs transition duration-300 ease-in-out hover:scale-110
+}
+.product_photo img{
+    @apply w-full
+}
+.product_title{
+    @apply flex flex-col gap-2
+}
+.product_title h2{
+    @apply font-medium 
+}

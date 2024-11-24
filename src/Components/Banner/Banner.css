@@ -1,0 +1,19 @@
+#apiBanner{
+    @apply pt-[150px] pb-[20px]
+}
+.apiBanner_row{
+    @apply flex justify-between items-center flex-wrap
+}
+.apiBanner_text h1{
+    @apply text-[60px] font-semibold font-sans
+}
+.apiBanner_text p{
+    @apply text-[20px] font-normal font-sans
+}
+.apiBanner_text a{
+    @apply mt-[20px] text-white font-normal font-sans py-[10px] px-[12px] bg-[#6256CA] rounded-[25px] inline-flex items-center gap-[12px] 
+}
+.apiBanner_image{
+    @apply w-[450px]
+}
+    
